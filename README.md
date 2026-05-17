@@ -62,19 +62,11 @@ YuanxiaoMonitor/1.0 (院校官网监测; +https://github.com/claw-manager/yuanxi
 在您网站根目录的 `robots.txt` 文件中添加以下规则即可：
 
 ```txt
-User-agent: YuanxiaoMonitor
+User-agent: YuanxiaoMonitor/1.0
 Disallow: /
 ```
 
 添加后，用户尝试将您的网站添加到监控时会收到错误提示："目标网站 robots.txt 禁止自动访问"。
-
-若仅需限制部分路径：
-
-```txt
-User-agent: YuanxiaoMonitor
-Disallow: /private/
-Disallow: /internal/
-```
 
 ### 通过响应状态码控制
 
